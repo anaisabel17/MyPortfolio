@@ -1,6 +1,6 @@
 *{
     background-color: #e7e0ed;
-    margin: 25px;
+    margin: 25px 25px 25px 110px;
 }
 
 h1{
@@ -8,19 +8,82 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 70px;
+    z-index: 1;
+    position: relative;
+    background-color: #b6adcd00;
 }
 p{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    padding: 0px 300px;
+    padding: 0px 200px;
     text-align: justify;
+    z-index: 1;
+    position: relative;
+    background-color: #b6adcd00;
 }
 .rombo {
     width: 35px;
     height: 35px;
-    background-color: #c9b6ed; 
+    /*background-color: #b6adcd5c; */
     transform: rotate(45deg);
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: -15px;
+    left: -100px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    z-index: 1;
 }
+.rombo {
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff53; 
+  transform: rotate(45deg);
+  position: absolute;
+  top: -15px;
+  left: -100px;
+  border: 2px solid rgba(0, 0, 0, 0.322);
+  z-index: 1;
+}
+
+.background-square {
+    width: 120%;
+    height: 410px;
+    background-color: #d4d2ee90; 
+    transform: rotate(165deg);
+    position: absolute;
+    top: -15px;
+    left: -180px;
+}
+.center {
+    text-align: center;
+  }
+  
+  button {
+    padding: 15px 50px;
+    font-size: 16px;
+    margin: 80px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #D3B6DD;
+    z-index: 1;
+    position: relative;
+  }
+
+  .marco {
+    position: absolute;
+    width: 180px; /* Puedes ajustar el tamaño según tus necesidades */
+    height: 180px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    top: 180px;
+    left: 140px;
+    border: 2px double black;
+  }
+  
+  img {
+    width: 120%;
+    height: 108%;
+    object-fit: scale-down;
+    transform: rotate(-45deg); 
+    margin: 0%;
+  }
