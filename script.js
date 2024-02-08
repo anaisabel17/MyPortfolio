@@ -32,20 +32,20 @@ function createDiamondRow(startTop, startLeft, rowCount) {
     }
   }
   
-  createDiamondRow(-55, -110, 8);
-  createDiamondRow(-55, -50, 7);
-  createDiamondRow(-55, 10, 6);
-  createDiamondRow(-25, -140, 8);
-  createDiamondRow(35, -140, 7);
-  createDiamondRow(95, -140, 11);
-  createDiamondRow(155, -140, 9);
-  createDiamondRow(215, -140, 9);
-  createDiamondRow(275, -140, 7);
-  createDiamondRow(335, -140, 7);
-  createDiamondRow(395, -140, 5);
-  createDiamondRow(455, -140, 5);
-  createDiamondRow(515, -140, 3);
-  createDiamondRow(575, -140, 1);
+  createDiamondRow(-55, 110, 8);
+  createDiamondRow(-55, 170, 7);
+  createDiamondRow(-55, 230, 6);
+  createDiamondRow(-25, 80, 8);
+  createDiamondRow(35, 80, 7);
+  createDiamondRow(95, 80, 11);
+  createDiamondRow(155, 80, 9);
+  createDiamondRow(215, 80, 9);
+  createDiamondRow(275, 80, 7);
+  createDiamondRow(335, 80, 7);
+  createDiamondRow(395, 80, 5);
+  createDiamondRow(455, 80, 5);
+  createDiamondRow(515, 80, 3);
+  createDiamondRow(575, 80, 1);
 
   function createDiamond(startTop, startLeft, rowCount) {
     for (let i = 0; i < rowCount; i++) {
@@ -61,13 +61,13 @@ function createDiamondRow(startTop, startLeft, rowCount) {
     }
   }
 
-  createDiamond(30, 1210, 7);
-  createDiamond(90, 1210, 6);
-  createDiamond(150, 1210, 5);
-  createDiamond(210, 1210, 6);
-  createDiamond(270, 1210, 6);
-  createDiamond(330, 1210, 6);
-  createDiamond(390, 1210, 4);
-  createDiamond(450, 1210, 5);
-  createDiamond(510, 1210, 3);
-  createDiamond(570, 1210, 1);
+  createDiamond(30, 1450, 7);
+  createDiamond(90, 1450, 6);
+  createDiamond(150, 1450, 5);
+  createDiamond(210, 1450, 6);
+  createDiamond(270, 1450, 6);
+  createDiamond(330, 1450, 6);
+  createDiamond(390, 1450, 4);
+  createDiamond(450, 1450, 5);
+  createDiamond(510, 1450, 3);
+  createDiamond(570, 1450, 1);

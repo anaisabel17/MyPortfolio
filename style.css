@@ -1,6 +1,5 @@
 *{
     background-color: #e7e0ed;
-    margin: 25px 25px 25px 110px;
 }
 
 h1{
@@ -15,7 +14,7 @@ h1{
 p{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    padding: 0px 200px;
+    padding: 0px 30%;
     text-align: justify;
     z-index: 1;
     position: relative;
@@ -86,4 +85,28 @@ p{
     object-fit: scale-down;
     transform: rotate(-45deg); 
     margin: 0%;
+  }*/
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+  }
+
+  ul li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    color: red;
   }
